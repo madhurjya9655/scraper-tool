@@ -1,0 +1,31 @@
+{
+  "task_id": "e4bdb6cfd13e4f38a295aa4ec3e52fbb",
+  "inputs": {
+    "keywords": [
+      "AI company",
+      "artificial intelligence company",
+      "machine learning company",
+      "data science company",
+      "AI services",
+      "AI consulting",
+      "ML consulting",
+      "analytics consulting",
+      "data analytics company",
+      "AI solutions provider",
+      "AI software company",
+      "AI startup",
+      "enterprise AI"
+    ],
+    "locations": [
+      "Mumbai"
+    ],
+    "industry": "",
+    "company_type": ""
+  },
+  "outputs": {
+    "csv": "E:\\CLIENT PROJECT\\Bos Scrap\\backend\\exports\\e4bdb6cfd13e4f38a295aa4ec3e52fbb\\output.csv",
+    "xlsx": "E:\\CLIENT PROJECT\\Bos Scrap\\backend\\exports\\e4bdb6cfd13e4f38a295aa4ec3e52fbb\\output.xlsx"
+  },
+  "finished_at": "2025-12-12T15:44:31.004351+05:30",
+  "phase": "completed"
+}

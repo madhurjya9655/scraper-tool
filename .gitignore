@@ -1,0 +1,139 @@
+﻿# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pyc
+*.pysave
+*.pkl
+
+# Bytecode caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Packaging / build
+build/
+dist/
+eggs/
+parts/
+sdist/
+develop-eggs/
+.eggs/
+lib/
+lib64/
+var/
+wheels/
+share/python-wheels/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Tools / coverage
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+.tox/
+.nox/
+
+# -------------------------
+# Project configuration / secrets
+# -------------------------
+.env
+.env.*
+!.env.example
+*.secret
+*.secrets
+*.key
+
+# -------------------------
+# Editors / IDEs
+# -------------------------
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+*.ipr
+*.iws
+.vim/
+*.swp
+*.swo
+
+# -------------------------
+# OS-specific junk
+# -------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+# macOS (in case someone uses a Mac)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# -------------------------
+# App outputs (keep repo clean)
+# -------------------------
+# Databases
+Database/*.db
+Database/*.sqlite
+Database/*.sqlite3
+
+# Logs
+Logs/
+*.log
+
+# Exports (CSV/Excel)
+Exports/*.csv
+Exports/*.xlsx
+
+# Temporary task artifacts (if any)
+tmp/
+temp/
+*.tmp
+
+# -------------------------
+# Node/Frontend (optional; safe to ignore if not used)
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+.pnp.js
+.package-lock.json
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# -------------------------
+# Images / cache (optional)
+# -------------------------
+*.png~
+*.jpg~
+*.jpeg~
+*.svg~

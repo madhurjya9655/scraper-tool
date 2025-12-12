@@ -1,0 +1,19 @@
+{
+  "task_id": "dde51cc3ace34dbdbf8292994d9e5758",
+  "inputs": {
+    "keywords": [
+      "forging company"
+    ],
+    "locations": [
+      "pune"
+    ],
+    "industry": "automotive component",
+    "company_type": "Tier 1 supplier"
+  },
+  "outputs": {
+    "csv": "E:\\CLIENT PROJECT\\Bos Scrap\\backend\\exports\\dde51cc3ace34dbdbf8292994d9e5758\\output.csv",
+    "xlsx": "E:\\CLIENT PROJECT\\Bos Scrap\\backend\\exports\\dde51cc3ace34dbdbf8292994d9e5758\\output.xlsx"
+  },
+  "finished_at": "2025-12-12T13:00:02.053741+05:30",
+  "phase": "completed"
+}

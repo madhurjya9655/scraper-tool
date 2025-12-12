@@ -1,0 +1,49 @@
+services:
+  - type: web
+    name: b2b-scraper-web
+    env: python
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn backend.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: REDIS_URL
+        fromService:
+          type: redis
+          name: b2b-scraper-redis
+          property: connectionString
+      - key: SERPAPI_KEY
+        sync: false
+      - key: SERPER_API_KEY
+        sync: false
+      - key: HUNTER_API_KEY
+        sync: false
+      - key: CLEARBIT_API_KEY
+        sync: false
+      - key: CORS_ALLOW_ORIGINS
+        value: "*"
+
+  - type: worker
+    name: b2b-scraper-worker
+    env: python
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: rq worker -u $REDIS_URL leadq
+    envVars:
+      - key: REDIS_URL
+        fromService:
+          type: redis
+          name: b2b-scraper-redis
+          property: connectionString
+      - key: SERPAPI_KEY
+        sync: false
+      - key: SERPER_API_KEY
+        sync: false
+      - key: HUNTER_API_KEY
+        sync: false
+      - key: CLEARBIT_API_KEY
+        sync: false
+
+databases:
+  - name: b2b-scraper-redis
+    plan: free
+    ipAllowList: []

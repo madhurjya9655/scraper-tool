@@ -1,0 +1,22 @@
+{
+  "task_id": "09ae03e14ae74f42b36d9b7d653d7a02",
+  "inputs": {
+    "keywords": [
+      "rapier loom manufacturer",
+      "textile machinery"
+    ],
+    "locations": [
+      "Surat",
+      "Ahmedabad",
+      "Coimbatore"
+    ],
+    "industry": "Textile Machinery",
+    "company_type": "OEM"
+  },
+  "outputs": {
+    "csv": "E:\\CLIENT PROJECT\\Bos Scrap\\backend\\exports\\09ae03e14ae74f42b36d9b7d653d7a02\\output.csv",
+    "xlsx": "E:\\CLIENT PROJECT\\Bos Scrap\\backend\\exports\\09ae03e14ae74f42b36d9b7d653d7a02\\output.xlsx"
+  },
+  "finished_at": "2025-12-12T13:03:45.979233+05:30",
+  "phase": "completed"
+}
