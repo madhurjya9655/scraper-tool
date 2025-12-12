@@ -137,3 +137,6 @@ yarn-error.log*
 *.jpg~
 *.jpeg~
 *.svg~
+backend/exports/
+backend/Database/
+.env
